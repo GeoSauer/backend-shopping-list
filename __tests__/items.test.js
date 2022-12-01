@@ -50,7 +50,7 @@ describe('items', () => {
       id: expect.any(String),
       description: newItem.description,
       qty: newItem.qty,
-      user_id: user.id,
+      userId: user.id,
       bought: false,
     });
   });
